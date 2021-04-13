@@ -21,7 +21,7 @@
 }
 
 .sidebar__addChannel {
-    transition: 0.4s ease-in;
+    transition: 0.4s ease !important;
     opacity: 0.6;
     cursor: pointer;
 }
