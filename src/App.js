@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import Chat from './components/Chat';
-import Sidebar from './components/Sidebar';
+import Chat from './components/Chat/Chat';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
     return (
         <div className="app">
-            <h2>Discords</h2>
             <Sidebar />
             <Chat />
         </div>
