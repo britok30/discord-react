@@ -11,9 +11,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #2f3135;
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.349)),
+        url('../../assets/images/sidebar.jpg') no-repeat center center/cover;
     color: #fff;
     border-bottom: 3px solid #26282c;
+    height: 100px;
 }
 
 .sidebar__channels {
