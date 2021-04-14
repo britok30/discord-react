@@ -9,6 +9,7 @@ import CallIcon from '@material-ui/icons/Call';
 import MicIcon from '@material-ui/icons/Mic';
 import HeadsetIcon from '@material-ui/icons/Headset';
 import SettingsIcon from '@material-ui/icons/Settings';
+import AvatarImage from '../../assets/images/avatar.jpg';
 import { Avatar } from '@material-ui/core';
 
 function Sidebar() {
@@ -52,7 +53,7 @@ function Sidebar() {
             </div>
 
             <div className="sidebar__profile">
-                <Avatar />
+                <Avatar src={AvatarImage} />
                 <div className="sidebar__profileInfo">
                     <h3>@Britojs</h3>
                     <p>#thisIsMyId</p>
