@@ -5,6 +5,7 @@ import PeopleAltRoundedIcon from '@material-ui/icons/PeopleAltRounded';
 import SearchRoundedIcon from '@material-ui/icons/SearchRounded';
 import SendRoundedIcon from '@material-ui/icons/SendRounded';
 import HelpRoundedIcon from '@material-ui/icons/HelpRounded';
+import './ChatHeader.css';
 
 const ChatHeader = () => {
     return (
