@@ -6,6 +6,9 @@ import SidebarChannel from '../SidebarChannel/SidebarChannel';
 import SignalCellularAltIcon from '@material-ui/icons/SignalCellularAlt';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import CallIcon from '@material-ui/icons/Call';
+import MicIcon from '@material-ui/icons/Mic';
+import HeadsetIcon from '@material-ui/icons/Headset';
+import SettingsIcon from '@material-ui/icons/Settings';
 import { Avatar } from '@material-ui/core';
 
 function Sidebar() {
@@ -53,6 +56,12 @@ function Sidebar() {
                 <div className="sidebar__profileInfo">
                     <h3>@Britojs</h3>
                     <p>#thisIsMyId</p>
+                </div>
+
+                <div className="sidebar__profileIcons">
+                    <MicIcon />
+                    <HeadsetIcon />
+                    <SettingsIcon />
                 </div>
             </div>
         </div>
