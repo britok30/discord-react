@@ -22,7 +22,7 @@ const ChatHeader = () => {
                 <PeopleAltRoundedIcon />
 
                 <div className="chatHeader__search">
-                    <input placeHolder="Search" />
+                    <input placeholder="Search" />
                     <SearchRoundedIcon />
                 </div>
 
